@@ -10,7 +10,8 @@
 
       .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto 250px auto;
+        gap: 30px;
       }
 
       .grid-container > div {
@@ -18,17 +19,41 @@
         padding: 20px 0;
       }
 
+      div.container {
+        text-align: center;
+      }
+
+      ol.myOL {
+        display: inline-block;
+        text-align: left;
+      }
+
     </style>
   </head>
 
   <body>
 
-    <marquee> MMP 240 - Web Design </marquee>
+    <marquee><h2>MMP 240 - Web Design</h2></marquee>
     
     <div class="grid-container">
       <div><p>Robbie Boediman</p><img src="https://i.imgur.com/J6JP7sw.jpeg" width="200 px"><p>email: katanna89@hotmail.com</p></div>
-      <div><p>About Me</p><p>Lorem ipsum blah blah blah</p></div>
-      <div><p>Assignments list (TBD)</p></div>
+      <div><p>About Me</p><p>Some personal information; I'm 20 years old, my pronouns are he/him, my ethnicity is Indonesian, I lived in the Adirondacks for 2 years but I was born and raised in Queens. I'm an MMD major with a game design concentration, majoring in game design has been a dream of mine since middle school. I used to be a computer science major, but I took so many arts classes that it made more sense to switch majors. I enjoy illustration, creative writing, photography and fashion design.</p></div>
+      <div>
+        <p>Assignments list (last updated 09-03-2024)</p>
+        <div class="container">
+          <ol class="myOL"> 
+            <li>Creating and Publishing Your First Page</li>
+                  <li>Linking HTML Files</li>
+                  <li>Exercise 3</li>
+                  <li>Exercise 4</li>
+                  <li>Exercise 5</li>
+                  <li>Exercise 6</li>
+                  <li>Exercise 7</li>
+                  <li>Exercise 8</li>
+                  <li>Exercise 9</li>
+          </ol>
+        </div>
+      </div>
     </div>
 
   </body>
