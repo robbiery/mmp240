@@ -15,8 +15,23 @@ h1 {
     font-family: "Sacramento", cursive;
 }
 
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+}
+
 body {
     font-family: "Josefin Sans", sans-serif;
 }
 
+.row {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 5px dotted black;
+  }
   
+.column {
+    padding: 10px;
+  }  
