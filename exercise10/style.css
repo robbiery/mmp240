@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width:576px){
+
+    .topList{
+        display:flex;
+        max-width:1000px;
+    }
+
+    nav li{
+        list-style-type: none;
+        border: solid 1px black;
+        position: relative;
+    }
+
+    nav li a{
+        text-align: center;
+        width: 300px;
+        padding: 10px 0;
+        display: block;
+    }
+
+    li:hover .dropdown li {
+        background-color: rgb(181, 181, 181);
+    }
+
+    nav li img{
+        float: right;
+        width: 15px;
+    }
+
+    nav a{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .dropdown{
+        display:none;
+        position: absolute;
+        width: 100%;
+    }      
+
+    nav li:hover .dropdown{ /* Descendent order/hierarchy (the dropdown class within the li class within the nav */
+        display:block;
+    }
+
+}
